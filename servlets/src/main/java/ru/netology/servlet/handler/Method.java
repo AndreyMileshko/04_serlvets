@@ -1,4 +1,4 @@
-package ru.netology.servlet;
+package ru.netology.servlet.handler;
 
 public enum Method {
     GET("GET"),
