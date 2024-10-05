@@ -22,8 +22,7 @@ public class MainServlet extends HttpServlet {
 
   @Override
   protected void service(HttpServletRequest req, HttpServletResponse resp) {
-    // если деплоились в root context, то достаточно этого
-    new Handler().serviceHandler(req, resp, controller);
+    Handler.serviceHandler(req, resp, controller);
   }
 }
 
