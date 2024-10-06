@@ -12,6 +12,7 @@ public enum Method {
         this.method = method;
     }
 
+    
     public String getMethod() {
         return method;
     }
